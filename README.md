@@ -1,4 +1,4 @@
-# This is my python3 script to create a Tree using Fractal Arts
+# This is my python3 script to create a Tree(fractal art) using turtle module
 
 ![image](https://user-images.githubusercontent.com/70594522/124227602-96328480-db28-11eb-8928-d469f136ca0e.png)
 
