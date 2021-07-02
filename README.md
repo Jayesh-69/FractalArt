@@ -10,4 +10,7 @@
 
 ## Jurassic Fractal
 
+![image](https://user-images.githubusercontent.com/70594522/124239263-25469900-db37-11eb-8cbe-9607579142ad.png)
+
+
 > Thanks to [Tech With Tim](https://www.youtube.com/channel/UC4JX40jDee_tINbkjycV4Sg) to provide this knowledge
