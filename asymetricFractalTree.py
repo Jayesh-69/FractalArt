@@ -6,14 +6,11 @@ turtle.speed(0)
 
 def tree(size, levels):
     if levels <= 0:
-        # turtle.color("green")
-        # turtle.penup()
-        # turtle.forward(10)
-        # turtle.dot(size)
-        # turtle.backward(10)
-        # turtle.pendown()
-        # turtle.color("black")
         return
+    if levels <= 3:
+        turtle.color("green")
+    else:
+        turtle.color("brown")
 
     turtle.forward(size)
     turtle.right(70)
@@ -23,15 +20,17 @@ def tree(size, levels):
     tree(size*0.7, levels-1)
 
     turtle.right(30)
+    turtle.penup()
     turtle.backward(size)
+    turtle.pendown()
 
 
 turtle.left(90)  # we are doing this so that our tree will be standing
 # Follwing code will make the position of tree a bit down so that our tree will not be in centre
 turtle.penup()
-turtle.backward(150)
+turtle.backward(300)
 turtle.pendown()
 # now we can draw the tree
-tree(110, 9)
+tree(200, 5)
 
 turtle.mainloop()  # This will make the program run until we close the window.
